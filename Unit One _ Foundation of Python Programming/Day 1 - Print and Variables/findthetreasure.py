@@ -1,0 +1,26 @@
+treasure_location = "asia"
+clue = "In the biggest building near ronaldo🤔🤔🤔"
+prize = "ten million dollars"
+
+print("Hello there! Help me find a treasure that is in "+treasure_location+" my only clue is that it's "+clue+" Wow I'm stuck! If you can find it your prize is "+prize)
+print("Go down for your answer once you know!")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("Answer:Burj khalifa")

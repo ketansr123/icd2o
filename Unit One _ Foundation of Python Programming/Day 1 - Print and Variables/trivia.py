@@ -1,0 +1,6 @@
+print("QUESTION:what planet has water")
+print("a) saturn")
+print("b) Jupiter")
+print("c) mars")
+print("d) earth")
+print("ANSWER: D) Earth")

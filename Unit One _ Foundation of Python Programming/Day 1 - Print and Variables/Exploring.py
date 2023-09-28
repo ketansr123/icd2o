@@ -1,0 +1,7 @@
+print("Exploring Huron Wendat heritage")
+print("-Traditional Practices")
+print("-Art and Craftsmanship")
+print("-Language and Storytelling")
+print("-Community Traditions")
+print("Wednesday, November 15, 2023")
+print("Duration of presentation: 60 Mins")
