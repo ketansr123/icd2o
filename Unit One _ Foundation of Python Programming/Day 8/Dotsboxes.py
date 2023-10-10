@@ -1,3 +1,4 @@
+yourname=input("What is your name?")
 opponent1=input("What is the name of the first person you played?")
 mypoints1=int(input("How many boxes did you get in game 1?"))
 opponentpoints1=int(input("How many boxes did your opponent get in game 1?"))
@@ -18,10 +19,13 @@ opponent5=input("What is the name of the fifth person you played?")
 mypoints5=int(input("How many boxes did you get in game 5?"))
 opponentpoints5=int(input("How many boxes did your opponent get in game 5?"))
 boxpercent5=(f"{mypoints5/(mypoints5+opponentpoints5):.2%}")
-
+mytotalpoints=mypoints1+mypoints2+mypoints3+mypoints4+mypoints5
+opponenttotalpoints=opponentpoints1+opponentpoints2+opponentpoints3+opponentpoints4+opponentpoints5
+boxtotalperc=mytotalpoints/(mytotalpoints+opponenttotalpoints)
 print("")#Just for seperating the chart from the questions.
 print("")
 print("")
+print(f"Player's name:{yourname}")
 print(f"{'Opponent':<10} {'Your Points':>10} {'Opponent points':>10} {'Box%':>10}")
 print("=================================================")
 print(f"{opponent1:<10} {mypoints1:>11} {opponentpoints1:>15} {boxpercent1:>10}")
@@ -29,3 +33,11 @@ print(f"{opponent2:<10} {mypoints2:>11} {opponentpoints2:>15} {boxpercent2:>10}"
 print(f"{opponent3:<10} {mypoints3:>11} {opponentpoints3:>15} {boxpercent3:>10}")
 print(f"{opponent4:<10} {mypoints4:>11} {opponentpoints4:>15} {boxpercent4:>10}")
 print(f"{opponent5:<10} {mypoints5:>11} {opponentpoints5:>15} {boxpercent5:>10}")
+print("=================================================")
+print("")
+print("")
+print("")
+print("Summary:")
+print(f"Total points:{mytotalpoints}")
+print(f"Opponent total points:{opponenttotalpoints}")
+print(f"Total box percentage:{boxtotalperc:.2%}")
