@@ -2,21 +2,14 @@ def input_bug_counts(bug_type):
     count = int(input(f"Enter the number of {bug_type} bugs:"))
     return count
     
-
-
-
 def calculate_percent(count, total):
     percent = (count/total)
     return percent
-
-
 
 def input_bug_type_and_count():
     name=input("Enter the type of bug:")
     counts=input_bug_counts(name)
     return name, counts 
-
-
 
 def display_table(bug1,count1,bug2,count2,bug3,count3):
     total = count1+count2+count3
@@ -28,15 +21,8 @@ def display_table(bug1,count1,bug2,count2,bug3,count3):
     print("="*45)
     print(f"{'Total':<15} {total:>10} {('100.00%'):>20}")
 
-
-
 bug1, count1 = input_bug_type_and_count()
 bug2, count2 = input_bug_type_and_count()
 bug3, count3 = input_bug_type_and_count()
 
 display_table(bug1, count1, bug2, count2, bug3, count3)
-    
-
-
-
-              
